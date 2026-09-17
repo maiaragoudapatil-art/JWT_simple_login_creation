@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+sqlalchemy
+psycopg2-binary
+pydantic
+alembic
+email-validator
+##uvicorn main:app --reload
+#"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2aWpheSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNzg5NTU5ODc5fQ.qEdUlyLB-u-k0ZHPQHJfQgHl9AVEbWuCc_1ePkyEv-s"
+"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTc4OTU2MDQ5M30.KJehB6lW-cbS2EyZteHypVUEuB43_an0DCyFgjC3wRk",
+  "token_type": "bearer"
